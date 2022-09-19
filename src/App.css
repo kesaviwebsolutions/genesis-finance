@@ -15,7 +15,21 @@ body {
 .srpay {
   background-color: black !important;
 }
-
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-image: linear-gradient(
+    90deg,
+    #ff7a00,
+    #e8ab76,
+    #07c3f2
+  ) !important;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
 img.navLogo {
   max-width: 70px;
 }
@@ -445,7 +459,7 @@ a.icons:hover {
     margin: auto;
     padding: 20px 0px 10px;
     text-align: center;
-    background-color: #c67aff;
+    background-color: #3898ec;
   }
   button.stake-btton {
     font-family: josefin-sans, sans-serif;
@@ -497,7 +511,7 @@ a.icons:hover {
     margin: auto;
     padding: 20px 0px 10px;
     text-align: center;
-    background-color: #c67aff;
+    background-color: #3898ec;
   }
   ul.nav.nav-pills.pills-area.ms-auto.mb-2.mb-lg-0 {
     display: grid;
@@ -550,7 +564,7 @@ a.icons:hover {
     margin: auto;
     padding: 20px 0px 10px;
     text-align: center;
-    background-color: #c67aff;
+    background-color: #3898ec;
   }
   tr.head {
     font-weight: 500;
