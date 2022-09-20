@@ -31,7 +31,7 @@ body {
   transition: var(--bs-navbar-toggler-transition);
 }
 img.navLogo {
-  max-width: 70px;
+  max-width: 100px;
 }
 li.nav-item {
   font-family: josefin-sans, sans-serif;
@@ -42,14 +42,13 @@ a.nav-link {
   color: #fff;
   transition: 0.5s;
 }
-a.nav-link:hover {
+/*a.nav-link:hover {
   color: #333333;
   text-decoration: line-through;
-}
+}*/
 a.nav-link.active.item {
-  background: none;
+  border-bottom: skyblue;
   color: #fff;
-  text-decoration: line-through;
 }
 .wallet-images {
   display: flex;
@@ -73,10 +72,10 @@ button.connect-btton {
   font-style: normal;
   color: #fff;
 }
-button.connect-btton:hover {
-  background: #1accaf;
+/*button.connect-btton:hover {
+  background: orange;
   color: #fff;
-}
+}*/
 ul.background {
   background-color: #1accaf;
 }
@@ -105,15 +104,15 @@ ul.nav.nav-pills.nav-fill.area {
 }
 a.nav-link.active.tab {
   background: none;
-  color: #1accaf;
+  color: #000;
   font-family: josefin-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
-  border-bottom: 3px solid #1accaf;
+  border-bottom: 3px solid skyblue;
   padding-bottom: 10px;
   border-radius: 0px;
-  text-decoration: line-through;
-  color: #fff;
+  background-color: skyblue;
+  border-radius: 4px;
 }
 a.nav-link.tab {
   background: none;
@@ -187,12 +186,12 @@ h6.srpay-text {
   font-weight: 600;
   font-style: normal;
 }
-p.srpay-count {
+/*p.srpay-count {
   font-family: josefin-sans, sans-serif;
   color: #333333;
   font-weight: 50;
   font-style: normal;
-}
+}*/
 h4.ss-heading {
   color: #fff;
   font-family: josefin-sans, sans-serif;
@@ -355,7 +354,7 @@ tr.body {
   align-items: center;
   justify-content: space-between;
 }
-a.whitepaper {
+/*a.whitepaper {
   text-decoration: none;
   color: #333333;
   border-radius: 15px;
@@ -369,10 +368,10 @@ a.whitepaper {
   margin: 70px auto 40px;
   max-width: 300px;
   transition: 0.5s;
-}
-a.whitepaper:hover {
+}*/
+/*a.whitepaper:hover {
   color: #000;
-}
+}*/
 img.footerImg {
   width: 60px;
 }
@@ -388,9 +387,9 @@ a.icons {
   color: #333333;
 }
 
-a.icons:hover {
+/*a.icons:hover {
   color: #333333;
-}
+}*/
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -415,16 +414,7 @@ a.icons:hover {
   .d-grid {
     width: 73%;
   }
-  .mystake-content {
-    border: none;
-    border-radius: 5px;
-    width: 96%;
-    display: block;
-    margin: auto;
-    padding: 20px 0px 10px;
-    text-align: center;
-    background-color: #3898ec;
-  }
+
   input.stakedAmount {
     border-radius: 50px;
     padding: 20px 20px;
@@ -481,7 +471,7 @@ a.icons:hover {
     width: 87%;
   }
   h4.ss-heading {
-    color: #333333;
+    color: #fff;
     font-family: josefin-sans, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -579,12 +569,50 @@ input.stakedAmount {
   padding: 20px 20px;
   width: 100%;
 }
-p {
+/*p {
   color: #fff;
 }
 p {
   color: #fff;
-}
+}*/
 svg.mx-3.my-3 {
   color: white;
+}
+/*a.nav-link.item.mx-1 {
+  text-decoration: line-through;
+}*/
+.mystake-content {
+  border: none;
+  border-radius: 5px;
+  width: 96%;
+  display: block;
+  margin: auto;
+  padding: 20px 0px 10px;
+  text-align: center;
+  background-image: linear-gradient(90deg, #ff7a00, #e8ab76, #07c3f2);
+}
+/*a.nav-link.item.mx-1 {
+  text-decoration: line-through;
+}*/
+a.nav-link.mx-1 {
+  /* text-decoration: line-through; */
+}
+
+th {
+  color: black;
+}
+p {
+  color: black;
+}
+p {
+  color: white;
+}
+button.d-block.m-auto.stake-btton {
+  color: black;
+}
+path {
+  background-image: linear-gradient(90deg, #8a3ab9, #bc2a8d, #fccc63, #fbad50);
+}
+p.srpay-count {
+  color: black;
 }

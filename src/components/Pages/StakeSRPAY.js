@@ -36,7 +36,7 @@ export default function StakeSRPAY({ user }) {
                     <h6 className="srpay-text">Total Token Staked</h6>
                     <p className="srpay-count">
                       {isNaN(stakeTotal) ? "0" : Number(stakeTotal).toFixed(0)}{" "}
-                      SRPAY
+                      
                     </p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ export default function StakeSRPAY({ user }) {
                 <div className="card-body content">
                   <div className="srpay-content">
                     <h6 className="srpay-text">Total Reward Distributed </h6>
-                    <p className="srpay-count">{Number(disturbute).toFixed(3)} SRPAY</p>
+                    <p className="srpay-count">{Number(2).toFixed(3)} </p>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function StakeSRPAY({ user }) {
                 <div className="card-body content">
                   <div className="srpay-content">
                     <h6 className="srpay-text">Total Reward Pending </h6>
-                    <p className="srpay-count">{Number(pending).toFixed(3)} SRPAY</p>
+                    <p className="srpay-count">{Number(1.0).toFixed(3)} </p>
                   </div>
                 </div>
               </div>

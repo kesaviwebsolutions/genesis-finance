@@ -21,7 +21,7 @@ export default function Footer() {
               className="whitepaper"
               rel="noreferrer"
             >
-              WHITEPAPER
+              
             </a>
           </div>
           <div className="footer-social-icons">

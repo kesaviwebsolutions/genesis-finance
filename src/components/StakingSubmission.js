@@ -57,9 +57,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 }}
               >
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">30 Days</h5>
+                  <h5 className="card-title styling">100 Days</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    35% APY
+                    50% APY
                   </h6>
                 </div>
               </div>
@@ -76,9 +76,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">90 Days</h5>
+                  <h5 className="card-title styling">85 Days</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    75% APY
+                    14% APY
                   </h6>
                 </div>
               </div>
@@ -95,10 +95,10 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">180 Days</h5>
+                  <h5 className="card-title styling">140 Days</h5>
 
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    90% APY
+                    40% APY
                   </h6>
                 </div>
               </div>
@@ -114,9 +114,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">365 Days</h5>
+                  <h5 className="card-title styling">300 Days</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    130% APY
+                    150% APY
                   </h6>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
       <div className="container">
         <div className="staking-area">
           <div className="stakedsubmission my-5 py-4 position-relative">
-            <h4 className="ss-heading">Input Stake Amount:</h4>
+            <h4 className="ss-heading">Input Amount:</h4>
             <div className="d-grid">
               <input
                 type="number"
@@ -149,9 +149,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
         <div className="container">
           <div className="stake-summary-content">
             <div className="stake">
-              <h4 className="srpayBalance">Your Balance : {balance} SRPAY</h4>
+              <h4 className="srpayBalance">Your Balance : {balance} 0 </h4>
             </div>
-            <button className="d-block m-auto stake-btton"> BUY SRPAY</button>
+            <button className="d-block m-auto stake-btton"> BUY </button>
             <div className="stake">
               <h3 className="stakingSummary">Staking Details</h3>
             </div>
@@ -169,7 +169,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
               <div className="summary-content">
                 <p>Staked Amount</p>
                 <p className="ssc">:</p>
-                <p className="sc">{count} SRPAY</p>
+                <p className="sc">{count} </p>
               </div>
               <div className="summary-content">
                 <p>Estimated Return</p>
@@ -182,7 +182,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
                     : duration == 180
                     ? `${count * 1.45}`
                     : `${count * 2.3}`}{" "}
-                  SRPAY
+                  
                 </p>
               </div>
               <div className="summary-content">

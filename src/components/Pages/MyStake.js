@@ -82,7 +82,7 @@ export default function MyStake({ user }) {
                 <div className="card-body">
                   <div className="srpay-content">
                     <h6 className="srpay-text">Total Staked</h6>
-                    <p className="srpay-count">{isNaN(mystake) ? "0" :  Number(mystake).toFixed(0)} SRPAY</p>
+                    <p className="srpay-count">{isNaN(mystake) ? "0" :  Number(mystake).toFixed(0)} </p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function MyStake({ user }) {
                 <div className="card-body content">
                   <div className="srpay-content">
                     <h6 className="srpay-text">Total Earning</h6>
-                    <p className="srpay-count">{isNaN(reward) ? "0" : Number(reward).toFixed(5)} SRPAY</p>
+                    <p className="srpay-count">{isNaN(reward) ? "0" : Number(reward).toFixed(5)} </p>
                   </div>
                 </div>
               </div>
