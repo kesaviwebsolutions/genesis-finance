@@ -40,8 +40,8 @@ export default function Navbar({
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="nav nav-pills pills-area ms-auto mb-2 mb-lg-0">
-              <li
+            <ul className="nav nav-pills pills-area mx-auto mb-2 mb-lg-0">
+              {/* <li
                 className="nav-item"
                 onClick={() => {
                   setActive(false);
@@ -59,7 +59,7 @@ export default function Navbar({
                 >
                   BACK TO MAIN WEBSITE
                 </a>
-              </li>
+              </li> */}
               <li
                 className="nav-item"
                 onClick={() => {
@@ -77,7 +77,7 @@ export default function Navbar({
                   STAKING
                 </a>
               </li>
-              <li
+              {/* <li
                 className="nav-item"
                 onClick={() => {
                   setActive(false);
@@ -94,8 +94,8 @@ export default function Navbar({
                 >
                   ROADMAP
                 </a>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 className="nav-item"
                 onClick={() => {
                   setActive(false);
@@ -112,8 +112,8 @@ export default function Navbar({
                 >
                   FAQS
                 </a>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 className="nav-item"
                 onClick={() => {
                   setActive(false);
@@ -130,35 +130,34 @@ export default function Navbar({
                 >
                   CONTACT
                 </a>
-              </li>
-
-              {!user ? (
-                <button
-                  type="button"
-                  className="btn mx-1 connect-btton"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Connect Wallet
-                </button>
-              ) : (
-                <div className="dropdown">
-                  <button
-                    className="btn mx-1 connect-btton dropdown-toggle"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    {sliceadd(user)}
-                  </button>
-                  <ul className="dropdown-menu background">
-                    <li className="disconnect" onClick={() => Dissconnect()}>
-                      Disconnect
-                    </li>
-                  </ul>
-                </div>
-              )}
+              </li> */}
             </ul>
+            {!user ? (
+              <button
+                type="button"
+                className="btn mx-1 connect-btton"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Connect Wallet
+              </button>
+            ) : (
+              <div className="dropdown">
+                <button
+                  className="btn mx-1 connect-btton dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  {sliceadd(user)}
+                </button>
+                <ul className="dropdown-menu background">
+                  <li className="disconnect" onClick={() => Dissconnect()}>
+                    Disconnect
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </nav>

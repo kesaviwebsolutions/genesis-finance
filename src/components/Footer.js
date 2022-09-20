@@ -14,7 +14,7 @@ export default function Footer() {
     <div>
       <div className="container">
         <div className="footer-area">
-          <div className="footer-content">
+          {/* <div className="footer-content">
             <a
               href="https://secure-pay.io/documents/whitepaper.pdf"
               target="_blank"
@@ -23,11 +23,11 @@ export default function Footer() {
             >
               
             </a>
-          </div>
+          </div> */}
           <div className="footer-social-icons">
             <div className="social-icons text-center">
               <a
-                href="https://discord.com/invite/2ZaVSKvv"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="icons"
@@ -36,7 +36,7 @@ export default function Footer() {
                 <FaDiscord className="mx-3 my-3" size={30} />
               </a>
               <a
-                href="https://twitter.com/SRPAY_SecurePay"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="icons"
@@ -45,7 +45,7 @@ export default function Footer() {
                 <FaTwitter className="mx-3 my-3" size={30} />
               </a>
               <a
-                href="https://t.me/SRPAY_Securepay"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="icons"
@@ -54,7 +54,7 @@ export default function Footer() {
                 <FaTelegramPlane className="mx-3 my-3" size={30} />
               </a>
               <a
-                href="https://www.instagram.com/srpay_securepay/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="icons"
@@ -63,7 +63,7 @@ export default function Footer() {
                 <FaInstagramSquare className="mx-3 my-3" size={30} />
               </a>
               <a
-                href="https://medium.com/@srpaycrypto"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="icons"
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
           <div className="footer-email">
             {<img src={footerLogo} alt="" className="footerImg" />}
-            <a href="/+" className="email">
+            <a href="/" className="email">
               hello@GenesisFinance.inf
             </a>
           </div>

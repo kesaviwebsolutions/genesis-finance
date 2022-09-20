@@ -46,10 +46,10 @@ a.nav-link {
   color: #333333;
   text-decoration: line-through;
 }*/
-a.nav-link.active.item {
-  border-bottom: skyblue;
+/* a.nav-link.active.item {
+
   color: #fff;
-}
+} */
 .wallet-images {
   display: flex;
   justify-content: space-around;
@@ -632,4 +632,10 @@ button.btn.mx-1.connect-btton{
   background-color: none;
   color:white !important;
   border-radius: 10px;
+}
+/* a.nav-link.active.item.mx-1 {
+  background-color: #0d6efd;
+} */
+a.nav-link.active.item.mx-1 {
+  background-color: #000;
 }
