@@ -616,3 +616,20 @@ path {
 p.srpay-count {
   color: black;
 }
+button.btn.mx-1.connect-btton:visited{
+  background-color: none;
+  color:white !important;
+}
+button.btn.mx-1.connect-btton:hover{
+  background-color: none;
+  color:white !important;
+}
+button.btn.mx-1.connect-btton:active{
+  background-color: none;
+  color:white !important;
+}
+button.btn.mx-1.connect-btton{
+  background-color: none;
+  color:white !important;
+  border-radius: 10px;
+}
