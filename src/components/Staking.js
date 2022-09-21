@@ -19,7 +19,7 @@ export default function Staking() {
                   setUnActiveTab(false);
                 }}
               >
-                Stake SRPAY
+                Staking
               </Link>
               <Link
                 className={`nav-link ${activeTab ? "active" : ""} tab`}

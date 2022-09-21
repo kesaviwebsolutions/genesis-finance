@@ -57,9 +57,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 }}
               >
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">100 Days</h5>
+                  <h5 className="card-title styling">30 Days Lock</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    50% APY
+                    15% APY
                   </h6>
                 </div>
               </div>
@@ -76,9 +76,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">85 Days</h5>
+                  <h5 className="card-title styling">90 Days Lock</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    14% APY
+                    45% APY
                   </h6>
                 </div>
               </div>
@@ -95,10 +95,10 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">140 Days</h5>
+                  <h5 className="card-title styling">180 Days Lock</h5>
 
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    40% APY
+                    135% APY
                   </h6>
                 </div>
               </div>
@@ -114,9 +114,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               >
                 {/* <ImCheckboxChecked size={32} color="#3cc05d" id="checkIcon" /> */}
                 <div className="card-body ss-text">
-                  <h5 className="card-title styling">300 Days</h5>
+                  <h5 className="card-title styling">365 Days Lock</h5>
                   <h6 className="card-subtitle mb-2 subtitleStyling">
-                    150% APY
+                    200% APY
                   </h6>
                 </div>
               </div>
@@ -182,7 +182,6 @@ export default function StakingSubmission({ getTotalStake, user }) {
                     : duration == 180
                     ? `${count * 1.45}`
                     : `${count * 2.3}`}{" "}
-                  
                 </p>
               </div>
               <div className="summary-content">
