@@ -82,48 +82,62 @@ export default function MyStake({ user }) {
     <div>
       <div className="container">
         <div className="srpay">
-          <div className="row">
-            <div className="card card-background">
-              <div className="row">
-                <div className="col-lg-6 col-md-12">
-                  <div className="card-body">
-                    <h5 className="card-title text-dark">Total Token Staked</h5>
-                    <p className="card-text text-dark fw-bold">$ 0 GENESIS</p>
+          <div className="container">
+            <div className="border-meta">
+              <div className="row total ">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12  section1a">
+                  <div className="row">
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+                    <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+                      <span
+                        style={{
+                          color: "#000",
+                          fontSize: "20px",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Total Staked
+                      </span>
+                      <br />
+                      <span
+                        style={{
+                          color: "#000",
+                          textAlign: "center",
+                          fontSize: "18px",
+                        }}
+                      >
+                        $0.00 GENESIS
+                      </span>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-12">
-                  <div className="card-body">
-                    <h5 className="card-title text-dark">
-                      Total Reward Distributed
-                    </h5>
-                    <p className="card-text text-dark fw-bold">$ 0 GENESIS</p>
+                <hr style={{ color: "white", marginTop: "1rem" }} />
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div className="row">
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+                    <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+                      <span
+                        style={{
+                          color: "#000",
+                          fontSize: "20px",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Total Earning
+                      </span>
+                      <br />
+                      <span style={{ color: "#000", fontSize: "18px" }}>
+                        $0.00 GENESIS
+                      </span>
+                    </div>
                   </div>
                 </div>
+
+                <hr style={{ color: "#000", marginTop: "1rem" }} />
               </div>
             </div>
           </div>
-          {/* <div className="row">
-            <div className="col-md-6">
-              <div className="card card-area">
-                <div className="card-body">
-                  <div className="srpay-content">
-                    <h6 className="srpay-text">Total Staked</h6>
-                    <p className="srpay-count">{isNaN(mystake) ? "0" :  Number(mystake).toFixed(0)} </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="card card-area2">
-                <div className="card-body content">
-                  <div className="srpay-content">
-                    <h6 className="srpay-text">Total Earning</h6>
-                    <p className="srpay-count">{isNaN(reward) ? "0" : Number(reward).toFixed(5)} </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+
           <div className="mystake-content">
             <table class="table">
               <thead>

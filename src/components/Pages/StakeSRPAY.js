@@ -56,12 +56,12 @@ export default function StakeSRPAY({ user }) {
                   <br />
                   <span
                     style={{
-                      color: "white",
+                      color: "#000",
                       textAlign: "center",
                       fontSize: "18px",
                     }}
                   >
-                    $0.00
+                    $0.00 GENESIS
                   </span>
                 </div>
               </div>
@@ -81,7 +81,10 @@ export default function StakeSRPAY({ user }) {
                     Total Reward Distributed
                   </span>
                   <br />
-                  <span style={{ color: "white", fontSize: "18px" }}>0</span>
+                  <span style={{ color: "#000", fontSize: "18px" }}>
+                    {" "}
+                    $0.00 GENESIS
+                  </span>
                 </div>
               </div>
             </div>
@@ -100,11 +103,14 @@ export default function StakeSRPAY({ user }) {
                     Total Reward Pending
                   </span>
                   <br />
-                  <span style={{ color: "white", fontSize: "18px" }}>0</span>
+                  <span style={{ color: "#000", fontSize: "18px" }}>
+                    {" "}
+                    $0.00 GENESIS
+                  </span>
                 </div>
               </div>
             </div>
-            <hr style={{ color: "white", marginTop: "1rem" }} />
+            <hr style={{ color: "#000", marginTop: "1rem" }} />
           </div>
         </div>
       </div>
