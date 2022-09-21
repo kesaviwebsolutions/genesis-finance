@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
 import StakingSubmission from "../StakingSubmission";
-import { totalstakedinContract, tokenpending, tokenDistribute } from "./../Web3/Wallets";
+
+import {
+  totalstakedinContract,
+  tokenpending,
+  tokenDistribute,
+} from "./../Web3/Wallets";
 import "../../App.css";
 export default function StakeSRPAY({ user }) {
   const [stakeTotal, setStakeTotal] = useState(0);
-  const [pending, setPending] = useState(0)
-  const [disturbute, setDisturbute] = useState(0)
+  const [pending, setPending] = useState(0);
+  const [disturbute, setDisturbute] = useState(0);
 
   useEffect(() => {
     const init = async () => {
       await getTotalStake();
-
     };
     init();
   }, [user]);
@@ -19,53 +23,92 @@ export default function StakeSRPAY({ user }) {
     const data = await totalstakedinContract();
     setStakeTotal(data);
     const pend = await tokenpending();
-    setPending(pend)
+    setPending(pend);
     const dis = await tokenDistribute();
-    setDisturbute(dis)
+    setDisturbute(dis);
   };
+
+  useEffect(() => {
+    const init = async () => {
+      await getTotalStake();
+    };
+    init();
+  }, [user]);
 
   return (
     <div>
       <div className="container">
-        <div className="srpay">
-          <div className="row">
-            <div className="col-lg-4 col-md-12">
-              <div className="card card-area">
-                <div className="card-body">
-                  <div className="srpay-content">
-                    <h6 className="srpay-text">Total Token Staked</h6>
-                    <p className="srpay-count">
-                      {isNaN(stakeTotal) ? "0" : Number(stakeTotal).toFixed(0)}{" "}
-                      
-                    </p>
-                  </div>
+        <div className="border-meta">
+          <div className="row total ">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12  section1a">
+              <div className="row">
+                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+                  <span
+                    style={{
+                      color: "#000",
+                      fontSize: "20px",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Total Token Staked
+                  </span>
+                  <br />
+                  <span
+                    style={{
+                      color: "white",
+                      textAlign: "center",
+                      fontSize: "18px",
+                    }}
+                  >
+                    $0.00
+                  </span>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-12">
-              <div className="card card-area2">
-                <div className="card-body content">
-                  <div className="srpay-content">
-                    <h6 className="srpay-text">Total Reward Distributed </h6>
-                    <p className="srpay-count">{Number(2).toFixed(3)} </p>
-                  </div>
+            <hr style={{ color: "white", marginTop: "1rem" }} />
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a">
+              <div className="row">
+                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+                  <span
+                    style={{
+                      color: "#000",
+                      fontSize: "20px",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Total Reward Distributed
+                  </span>
+                  <br />
+                  <span style={{ color: "white", fontSize: "18px" }}>0</span>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-12">
-              <div className="card card-area2">
-                <div className="card-body content">
-                  <div className="srpay-content">
-                    <h6 className="srpay-text">Total Reward Pending </h6>
-                    <p className="srpay-count">{Number(1.0).toFixed(3)} </p>
-                  </div>
+            <hr style={{ color: "white", marginTop: "1rem" }} />
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 ">
+              <div className="row">
+                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+                  <span
+                    style={{
+                      color: "#000",
+                      fontSize: "20px",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Total Reward Pending
+                  </span>
+                  <br />
+                  <span style={{ color: "white", fontSize: "18px" }}>0</span>
                 </div>
               </div>
             </div>
+            <hr style={{ color: "white", marginTop: "1rem" }} />
           </div>
-          <StakingSubmission getTotalStake={getTotalStake} user={user} />
         </div>
       </div>
+      <StakingSubmission getTotalStake={getTotalStake} user={user} />
     </div>
   );
 }
