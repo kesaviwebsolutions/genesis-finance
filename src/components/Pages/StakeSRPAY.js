@@ -40,10 +40,10 @@ export default function StakeSRPAY({ user }) {
       <div className="container">
         <div className="border-meta">
           <div className="row total ">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12  section1a">
-              <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
-                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+       
+     
+        
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
                   <span
                     style={{
                       color: "#000",
@@ -64,13 +64,13 @@ export default function StakeSRPAY({ user }) {
                     $0.00 GENESIS
                   </span>
                 </div>
-              </div>
-            </div>
+          
+       
             <hr style={{ color: "white", marginTop: "1rem" }} />
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a">
-              <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
-                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+      
+
+            
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
                   <span
                     style={{
                       color: "#000",
@@ -86,13 +86,13 @@ export default function StakeSRPAY({ user }) {
                     $0.00 GENESIS
                   </span>
                 </div>
-              </div>
-            </div>
+          
+      
             <hr style={{ color: "white", marginTop: "1rem" }} />
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12 ">
-              <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
-                <div className="col-lg-8 col-md-8 col-sm-8 col-6">
+        
+       
+          
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1b ">
                   <span
                     style={{
                       color: "#000",
@@ -108,9 +108,8 @@ export default function StakeSRPAY({ user }) {
                     $0.00 GENESIS
                   </span>
                 </div>
-              </div>
-            </div>
-            <hr style={{ color: "#000", marginTop: "1rem" }} />
+        
+     
           </div>
         </div>
       </div>
