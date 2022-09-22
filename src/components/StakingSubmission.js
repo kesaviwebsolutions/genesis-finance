@@ -103,7 +103,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
+            <diyv className="col-lg-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
               <div
                 className={`card card-section ${active == 4 ? "active" : ""}`}
                 onClick={() => {
@@ -120,15 +120,18 @@ export default function StakingSubmission({ getTotalStake, user }) {
                   </h6>
                 </div>
               </div>
-            </div>
+            </diyv>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="staking-area">
           <div className="stakedsubmission my-5 py-2 position-relative">
-            <h4 className="ss-heading">Input Amount:</h4>
-            <div className="d-grid">
+          <div className="row" style={{margin:"0.5rem",marginBottom:"2rem"}}>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-12">
+            <h4 className="ss-heading">Input Amount:</h4></div>
+            <div className="col-lg-8 col-md-8 col-sm-8 col-12">
+             <div className="d-grid">
               <input
                 type="number"
                 placeholder="Enter amount"
@@ -143,13 +146,14 @@ export default function StakingSubmission({ getTotalStake, user }) {
               ) : (
                 ""
               )}
+            </div></div></div>
+            <div className="row" style={{margin:"0.5rem"}}>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-12"></div>
+            <div className="col-lg-8 col-md-8 col-sm-8 col-12">
+            <button className="stakenow"> STAKE NOW</button></div>
             </div>
-
           </div>
-          <button className="d-block m-auto stake-btton">
-              {" "}
-              STAKE NOW
-            </button>
+        
         </div>
         <div className="container">
           <div className="stake-summary-content">

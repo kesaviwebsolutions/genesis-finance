@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import spay from "../images/srpay logo.png";
+import spay from "../images/logo.jpg";
 import meta from "../images/meta.png";
 import connect from "../images/connect.svg";
 import "../App.css";
@@ -137,9 +137,9 @@ export default function Navbar({
                 type="button"
                 className="btn mx-1 connect-btton"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal" 
+                data-bs-target="#exampleModal"
                 id="button123"
-                style={{marginRight:"1rem !important"}}
+                style={{ marginRight: "1rem !important" }}
               >
                 Connect Wallet
               </button>
@@ -162,12 +162,13 @@ export default function Navbar({
             )}
             <button
               type="button"
-              className="btn mx-1 "d-block m-auto stake-btton>
+              className="btn mx-1 "
+              d-block
+              m-auto
+              stake-btton
+            >
               {" "}
               BUY $GENESIS
-           
-            
-            
             </button>
           </div>
         </div>

@@ -7,7 +7,7 @@ import {
   FaInstagramSquare,
   FaMedium,
 } from "react-icons/fa";
-import footerLogo from "../images/srpay logo.png";
+import footerLogo from "../images/logo.jpg";
 
 export default function Footer() {
   return (
@@ -26,48 +26,23 @@ export default function Footer() {
           </div> */}
           <div className="footer-social-icons">
             <div className="social-icons text-center">
-              <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="icons"
-              >
+              <a href="/" target="_blank" rel="noreferrer" className="icons">
                 {" "}
                 <FaDiscord className="mx-3 my-3" size={30} />
               </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="icons"
-              >
+              <a href="/" target="_blank" rel="noreferrer" className="icons">
                 {" "}
                 <FaTwitter className="mx-3 my-3" size={30} />
               </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="icons"
-              >
+              <a href="/" target="_blank" rel="noreferrer" className="icons">
                 {" "}
                 <FaTelegramPlane className="mx-3 my-3" size={30} />
               </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="icons"
-              >
+              <a href="/" target="_blank" rel="noreferrer" className="icons">
                 {" "}
                 <FaInstagramSquare className="mx-3 my-3" size={30} />
               </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="icons"
-              >
+              <a href="/" target="_blank" rel="noreferrer" className="icons">
                 {" "}
                 <FaMedium className="mx-3 my-3" size={30} />
               </a>
