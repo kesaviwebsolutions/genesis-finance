@@ -126,7 +126,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
       </div>
       <div className="container">
         <div className="staking-area">
-          <div className="stakedsubmission my-5 py-4 position-relative">
+          <div className="stakedsubmission my-5 py-2 position-relative">
             <h4 className="ss-heading">Input Amount:</h4>
             <div className="d-grid">
               <input
@@ -144,7 +144,12 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 ""
               )}
             </div>
+
           </div>
+          <button className="d-block m-auto stake-btton">
+              {" "}
+              STAKE NOW
+            </button>
         </div>
         <div className="container">
           <div className="stake-summary-content">
@@ -153,10 +158,6 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 Your Balance : {balance} $GENESIS
               </h4>
             </div>
-            <button className="d-block m-auto stake-btton">
-              {" "}
-              BUY $GENESIS
-            </button>
             <div className="stake">
               <h3 className="stakingSummary">Staking Details</h3>
             </div>
@@ -203,7 +204,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
                 </p>
               </div>
             </div>
-            <button
+            {/* <button
               className="d-block m-auto stake-btton"
               onClick={() => {
                 StakeAmount();
@@ -212,7 +213,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
               {" "}
               STAKE NOW
             </button>
-            <br />
+            <br /> */}
           </div>
         </div>
       </div>

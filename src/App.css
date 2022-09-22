@@ -261,10 +261,12 @@ p.error-statement {
 
 /* STAKING SUMMARY */
 
-.stake {
+/* .stake {
   padding-left: 265px;
-}
+} */
 h4.srpayBalance {
+  margin-top: 60px;
+  margin-bottom: -20px;
   color: #fff;
   font-family: josefin-sans, sans-serif;
   font-weight: 500;
@@ -859,6 +861,7 @@ p {
 }
 button.d-block.m-auto.stake-btton {
   color: black;
+  width: 68%;
 }
 path {
   background-image: linear-gradient(90deg, #8a3ab9, #bc2a8d, #fccc63, #fbad50);
@@ -872,7 +875,7 @@ button.btn.mx-1.connect-btton:visited {
 }
 button.btn.mx-1.connect-btton:hover {
   background-color: none;
-  color: white !important;
+  /* color: white !important; */
 }
 button.btn.mx-1.connect-btton:active {
   background-color: none;
@@ -880,7 +883,7 @@ button.btn.mx-1.connect-btton:active {
 }
 button.btn.mx-1.connect-btton {
   background-color: none;
-  color: white !important;
+  color: #000 !important;
   border-radius: 10px;
 }
 /* a.nav-link.active.item.mx-1 {
@@ -893,3 +896,22 @@ a.nav-link.active.item.mx-1 {
 .section1b{
   text-align: center;
 }
+button.btn.mx-1.buy-button {
+  color: #000;
+  border-radius: 10px;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+button.btn.mx-1 {
+  color: #000;
+  border: 1px solid #000;
+  background-image: linear-gradient(90deg, #ff7a00, #e8ab76, #07c3f2);
+  border-radius: 10px;
+  font-weight: bold;
+}
+#button123{
+  margin-right: 1rem !important;
+}
+/* button.d-block.m-auto.stake-btton {
+    padding-right: 800px;
+} */

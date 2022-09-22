@@ -137,7 +137,9 @@ export default function Navbar({
                 type="button"
                 className="btn mx-1 connect-btton"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#exampleModal" 
+                id="button123"
+                style={{marginRight:"1rem !important"}}
               >
                 Connect Wallet
               </button>
@@ -158,6 +160,15 @@ export default function Navbar({
                 </ul>
               </div>
             )}
+            <button
+              type="button"
+              className="btn mx-1 "d-block m-auto stake-btton>
+              {" "}
+              BUY $GENESIS
+           
+            
+            
+            </button>
           </div>
         </div>
       </nav>
