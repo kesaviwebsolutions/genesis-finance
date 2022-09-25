@@ -35,7 +35,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
     }
   };
 
-  console.log(duration * 86400);
+  
   return (
     <div>
       <div className="container">
@@ -150,7 +150,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
             <div className="row" style={{margin:"0.5rem"}}>
             <div className="col-lg-4 col-md-4 col-sm-4 col-12"></div>
             <div className="col-lg-8 col-md-8 col-sm-8 col-12">
-            <button className="stakenow"> STAKE NOW</button></div>
+            <button className="stakenow"  onClick={() => {
+                StakeAmount();
+              }}> STAKE NOW</button></div>
             </div>
           </div>
         

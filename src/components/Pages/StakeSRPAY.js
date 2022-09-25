@@ -61,7 +61,7 @@ export default function StakeSRPAY({ user }) {
                       fontSize: "18px",
                     }}
                   >
-                    $0.00 GENESIS
+                    {stakeTotal} GENESIS
                   </span>
                 </div>
           
@@ -83,7 +83,7 @@ export default function StakeSRPAY({ user }) {
                   <br />
                   <span style={{ color: "#000", fontSize: "18px" }}>
                     {" "}
-                    $0.00 GENESIS
+                    {disturbute} GENESIS
                   </span>
                 </div>
           
@@ -105,7 +105,7 @@ export default function StakeSRPAY({ user }) {
                   <br />
                   <span style={{ color: "#000", fontSize: "18px" }}>
                     {" "}
-                    $0.00 GENESIS
+                    {pending} GENESIS
                   </span>
                 </div>
         

@@ -2,7 +2,7 @@ import Web3 from 'web3/dist/web3.min.js'
 import WalletConnectProvider from '@walletconnect/web3-provider/dist/umd/index.min.js'
 import { StakingABI, StakingAddress, TokenABI, TokenAddress } from './Credentials'
 
-let web3
+let web3 = new Web3(window.ethereum)
 var provider = new WalletConnectProvider({
   rpc: {
     56: 'https://bsc-dataseed1.ninicoin.io',
@@ -103,9 +103,11 @@ export const Stake =async(du,amount)=> {
       return data;
     }
     else{
-      await Approve();
-      const data = await contract.methods.deposit(a,du).send({from:await getUserAddress()});
-      return data;
+      const data1 = await Approve();
+      if(data1.status){
+        const data = await contract.methods.deposit(a,du).send({from:await getUserAddress()});
+        return data;
+      }
     }
   } catch (error) {
     console.log(error)
