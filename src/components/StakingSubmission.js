@@ -146,7 +146,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               ) : (
                 ""
               )}
-            </div></div></div>
+            </div>
+            </div>
+            </div>
             <div className="row" style={{margin:"0.5rem"}}>
             <div className="col-lg-4 col-md-4 col-sm-4 col-12"></div>
             <div className="col-lg-8 col-md-8 col-sm-8 col-12">
