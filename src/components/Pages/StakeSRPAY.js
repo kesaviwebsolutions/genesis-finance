@@ -40,76 +40,65 @@ export default function StakeSRPAY({ user }) {
       <div className="container">
         <div className="border-meta">
           <div className="row total ">
-       
-     
-        
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Token Staked
-                  </span>
-                  <br />
-                  <span
-                    style={{
-                      color: "#000",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    $0.00 GENESIS
-                  </span>
-                </div>
-          
-       
-            <hr style={{ color: "white", marginTop: "1rem" }} />
-      
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
+              <span
+                style={{
+                  color: "#000",
+                  fontSize: "20px",
+                  fontWeight: "500",
+                }}
+              >
+                Total Token Staked
+              </span>
+              <br />
+              <span
+                style={{
+                  color: "#000",
+                  textAlign: "center",
+                  fontSize: "18px",
+                }}
+              >
+                $0.00 GENESIS
+              </span>
+            </div>
 
-            
-              <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Reward Distributed
-                  </span>
-                  <br />
-                  <span style={{ color: "#000", fontSize: "18px" }}>
-                    {" "}
-                    $0.00 GENESIS
-                  </span>
-                </div>
-          
-      
             <hr style={{ color: "white", marginTop: "1rem" }} />
-        
-       
-          
+
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
+              <span
+                style={{
+                  color: "#000",
+                  fontSize: "20px",
+                  fontWeight: "500",
+                }}
+              >
+                Total Reward Distributed
+              </span>
+              <br />
+              <span style={{ color: "#000", fontSize: "18px" }}>
+                {" "}
+                $0.00 GENESIS
+              </span>
+            </div>
+
+            <hr style={{ color: "white", marginTop: "1rem" }} />
+
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1b ">
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Reward Pending
-                  </span>
-                  <br />
-                  <span style={{ color: "#000", fontSize: "18px" }}>
-                    {" "}
-                    $0.00 GENESIS
-                  </span>
-                </div>
-        
-     
+              <span
+                style={{
+                  color: "#000",
+                  fontSize: "20px",
+                  fontWeight: "500",
+                }}
+              >
+                Total Reward Pending
+              </span>
+              <br />
+              <span style={{ color: "#000", fontSize: "18px" }}>
+                {" "}
+                $0.00 GENESIS
+              </span>
+            </div>
           </div>
         </div>
       </div>
