@@ -25,7 +25,7 @@ export default function Navbar({
     <div>
       <nav className="navbar navbar-expand-lg bg-transparent">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/https://genesis-finance.net">
             <img src={spay} alt="" className="navLogo" />
           </a>
           <button
@@ -60,6 +60,25 @@ export default function Navbar({
                   BACK TO MAIN WEBSITE
                 </a>
               </li> */}
+              <li
+                className="nav-item"
+                onClick={() => {
+                  setActive(true);
+                  setActive2(false);
+                  setActive3(false);
+                  setActive4(false);
+                  setActive5(false);
+                }}
+              >
+                <a
+                  className={`nav-link ${active ? "active item" : ""} mx-1`}
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://genesis-finance.net"
+                >
+                  Back to mainwebsite
+                </a>
+              </li>
               <li
                 className="nav-item"
                 onClick={() => {
@@ -168,7 +187,7 @@ export default function Navbar({
               stake-btton
             >
               {" "}
-              BUY $GEFI 
+              BUY $GEFI
             </button>
           </div>
         </div>
