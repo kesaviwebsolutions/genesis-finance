@@ -106,7 +106,7 @@ export default function MyStake({ user }) {
                           fontSize: "18px",
                         }}
                       >
-                        $0.00 GENESIS
+                        $0.00 GEFI 
                       </span>
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export default function MyStake({ user }) {
                       </span>
                       <br />
                       <span style={{ color: "#000", fontSize: "18px" }}>
-                        $0.00 GENESIS
+                        $0.00 GEFI 
                       </span>
                     </div>
                   </div>

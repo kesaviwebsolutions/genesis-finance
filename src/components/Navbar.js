@@ -168,7 +168,7 @@ export default function Navbar({
               stake-btton
             >
               {" "}
-              BUY $GENESIS
+              BUY $GEFI 
             </button>
           </div>
         </div>
