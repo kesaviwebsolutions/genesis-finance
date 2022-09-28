@@ -109,7 +109,7 @@ a.nav-link.active.tab {
   font-weight: 700;
   font-style: normal;
   border-bottom: 3px solid skyblue;
-  padding-bottom: 10px;
+  padding-bottom: 0.5px;
   border-radius: 0px;
   background-color: skyblue;
   border-radius: 4px;
@@ -231,7 +231,6 @@ h4.ss-heading {
   font-style: normal;
 }
 .stakedsubmission {
-  
   align-items: baseline;
 }
 img.stakedImage {
@@ -244,7 +243,6 @@ input.stakedAmount {
   width: 100%;
 }
 .d-grid {
-  
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -393,6 +391,9 @@ a.email {
   color: #fff;
   margin-left: 10px;
   margin-bottom: 20px;
+}
+a.email:hover {
+  color: #fff;
 }
 
 a.icons {
@@ -916,9 +917,8 @@ button.btn.mx-1 {
     padding-right: 800px;
 } */
 button.stakenow {
-
-width:100%;
+  width: 100% !important;
   border-radius: 10px;
-  background-image: linear-gradient(90deg, #ff7a00, #e8ab76, #07c3f2);
+
   padding: 12px;
 }

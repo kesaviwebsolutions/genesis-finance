@@ -19,7 +19,7 @@ export default function Staking() {
                   setUnActiveTab(false);
                 }}
               >
-                Staking
+                Staking $GEFI 
               </Link>
               <Link
                 className={`nav-link ${activeTab ? "active" : ""} tab`}

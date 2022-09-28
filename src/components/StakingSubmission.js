@@ -146,7 +146,9 @@ export default function StakingSubmission({ getTotalStake, user }) {
               ) : (
                 ""
               )}
-            </div></div></div>
+            </div>
+            </div>
+            </div>
             <div className="row" style={{margin:"0.5rem"}}>
             <div className="col-lg-4 col-md-4 col-sm-4 col-12"></div>
             <div className="col-lg-8 col-md-8 col-sm-8 col-12">
@@ -161,7 +163,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
           <div className="stake-summary-content">
             <div className="stake">
               <h4 className="srpayBalance">
-                Your Balance : {balance} $GENESIS
+                Your Balance : {balance} $GEFI 
               </h4>
             </div>
             <div className="stake">
@@ -181,7 +183,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
               <div className="summary-content">
                 <p>Staked Amount</p>
                 <p className="ssc">:</p>
-                <p className="sc">{count} $GENESIS </p>
+                <p className="sc">{count} $GEFI  </p>
               </div>
               <div className="summary-content">
                 <p>Estimated Return</p>
@@ -194,7 +196,7 @@ export default function StakingSubmission({ getTotalStake, user }) {
                     : duration == 180
                     ? `${count * 1.45}`
                     : `${count * 2.3}`}{" "}
-                  $GENESIS
+                  $GEFI 
                 </p>
               </div>
               <div className="summary-content">
