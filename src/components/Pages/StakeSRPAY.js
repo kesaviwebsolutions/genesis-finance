@@ -40,56 +40,6 @@ export default function StakeSRPAY({ user }) {
       <div className="container">
         <div className="border-meta">
           <div className="row total ">
-<<<<<<< HEAD
-       
-     
-        
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Token Staked
-                  </span>
-                  <br />
-                  <span
-                    style={{
-                      color: "#000",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    {stakeTotal} GENESIS
-                  </span>
-                </div>
-          
-       
-            <hr style={{ color: "white", marginTop: "1rem" }} />
-      
-
-            
-              <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Reward Distributed
-                  </span>
-                  <br />
-                  <span style={{ color: "#000", fontSize: "18px" }}>
-                    {" "}
-                    {disturbute} GENESIS
-                  </span>
-                </div>
-          
-      
-=======
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
               <span
                 style={{
@@ -112,7 +62,6 @@ export default function StakeSRPAY({ user }) {
               </span>
             </div>
 
->>>>>>> 0d23f58bc7279cfcf92d5c97f894a6c09d5ee1f5
             <hr style={{ color: "white", marginTop: "1rem" }} />
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1a section1b">
@@ -135,25 +84,6 @@ export default function StakeSRPAY({ user }) {
             <hr style={{ color: "white", marginTop: "1rem" }} />
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 section1b ">
-<<<<<<< HEAD
-                  <span
-                    style={{
-                      color: "#000",
-                      fontSize: "20px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Total Reward Pending
-                  </span>
-                  <br />
-                  <span style={{ color: "#000", fontSize: "18px" }}>
-                    {" "}
-                    {pending} GENESIS
-                  </span>
-                </div>
-        
-     
-=======
               <span
                 style={{
                   color: "#000",
@@ -169,7 +99,6 @@ export default function StakeSRPAY({ user }) {
                 $0.00 GEFI 
               </span>
             </div>
->>>>>>> 0d23f58bc7279cfcf92d5c97f894a6c09d5ee1f5
           </div>
         </div>
       </div>
